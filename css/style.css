@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::after, *::before {
+    box-sizing: inherit;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.mt-2 {
+    margin-bottom: 1rem;
+}
+.mt-1 {
+    margin-bottom: .5rem;
+}
+
+header {
+    background: url('../img/adult1.jpg') no-repeat center center/cover;
+    height: 40rem;
+    color: #fff;
+}
+.header__nav {
+    padding: 1rem 7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav ul {
+    display: flex;
+}
+.header__nav ul li {
+    margin: .5rem;
+    padding: .6rem;
+}
+.header__nav ul li:hover,.current {
+    background: #f04;
+    border-radius: .2rem;
+}
+.header__nav ul li a{
+    padding: .25rem;
+    color: #fff;
+}
+.header__nav-text {
+    font-size: 1.2rem;
+}
+
+.flex-center {
+    margin-top: -3rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.flex-center h3 {
+    font-size: 2.85rem;
+    text-align: center;
+
+}
+.flex-center p {
+    margin-top: .3rem;
+    font-size: 1.3rem;
+    text-align: center;
+}
+.flex-center h3, .flex-center p {
+    width: 48%;
+}
+.flex-center button {
+    margin-top: .7rem;
+    background: #f04;
+    padding: .6rem;
+    border: 1px solid #f04;
+    color: #fff;
+    border-radius: .2rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.flex-center button:focus {
+    outline: none;
+}
+.flex-center img {
+    padding: 0 .5rem;
+}
+
+/* About */
+.about {
+    background: #f5f5f5;
+}
+.flex-con {
+    margin: 0 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-1 {
+    min-height: 20rem;
+    flex: 0 0 50%;
+    margin-right: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box-2 {
+    min-height: 20rem;
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+.uni {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.text-center {
+    text-align: center;
+}
+.progressive-bar {
+    background: #fff;
+    height: 2rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.progressive-bar div{
+    background: #f04;
+    height: 100%;
+    width: 30%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.about-photo {
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+}
+
+.projects {
+    min-height: 30rem;
+    margin-bottom: 1rem;
+}
+.projects h3,.about h3 {
+    padding-top: 1.6rem;
+    text-align: center;
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    position: relative;
+}
+.projects h3::after {
+    content: "";
+    height: 2px;
+    width: 3rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: .6rem;
+}
+.tab {
+    /* box-shadow: 1px 1px 2px #f5f5f5, -1px -1px 2px #f5f5f5;; */
+    width: 73%;
+    border: 1px solid #f5f5f5;
+    border-left: 4px solid #f04;
+}
+.tab ul {
+    display: flex;
+    justify-content: space-around;
+}
+.tab ul li {
+    margin: 0 1.4rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+.container .nav {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 80%;
+    padding: 0 3rem;
+    margin-top: 1.3rem;
+}
+.box {
+    height: 23rem;
+    width: 33rem;
+    background: url('../img/apple.jpg') no-repeat center center/cover;
+    margin-right: 1.9rem;
+}
+.text-header {
+    flex: 1;
+}
+.text-header p{
+    width: 100%;
+    padding-top: 1rem;
+    font-size: 1rem;
+    text-align: justify;
+    margin-bottom: .7rem;
+}
+.features div {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.features ul {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.features ul li {
+    flex: 0 0 47%;
+    padding: .5rem;
+    font-size: .9rem;
+    background: #fff;
+    margin: .2rem;
+    box-shadow: 1px 1px 2px lightgrey, -1px -1px 2px lightgrey;
+}
+.btn-danger {
+    background: #f04;
+    color: #fff;
+    border: 1px solid #f04;
+
+}
+.btn-primary {
+    background: blue;
+    color: #fff;
+    border: 1px solid blue;
+
+}
+.btn-md {
+    margin-top: .7rem;
+    padding: .7rem;
+    cursor: pointer;
+}
+
+.my-image {
+    background: url('../img/tunde2.jpg') no-repeat center center/cover;
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+}
+footer {
+    height: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ccc;
+}
+footer p {
+    text-align: center;
+    font-size: 1.1rem;
+}
+footer p a {
+    color: black;
+}
+@media only screen and (max-width: 68rem) {
+    .box {
+        height: 25rem;
+        width: 30rem;
+    }
+    .container .tab {
+        width: 83%;
+    } 
+    .container .nav {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 62rem) {
+    .box {
+        height: 29rem;
+        width: 27rem;
+    }
+}
+@media only screen and (max-width: 54rem) {
+    .box {
+        height: 100%;
+        width: 100%;
+    }
+    .container .nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-con {
+        display: flex;
+        flex-direction: column;
+    }
+    .box-2 {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 52rem) {
+    .my-image {
+        display: none;
+    }
+    .flex-center p {
+        margin-top: 1.3rem;
+    }
+    .header__nav-text {
+        margin-bottom: .4rem;
+    }
+}
+@media only screen and (max-width: 46rem) {
+    .header__nav {
+        display: flex;
+        flex-direction: column;
+    }
+    .header__nav div {
+        text-align: center;
+    }
+    .header__nav ul {
+        padding-top: .5rem;
+    }
+    .flex-center h3 {
+        font-size: 2.6rem;
+    }
+    .header__nav-text {
+        font-size: 1.5rem;
+    }
+    .box-1 {
+        min-height: 15rem;
+    }
+}
+@media only screen and (max-width: 38rem) {
+    .flex-center h3, .flex-center p {
+        width: 70%;
+    } 
+    .flex-center h3 {
+        margin-top: -6rem;
+    }
+    .container .nav {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 32rem) {
+    .header__nav{
+        padding: 1rem 2rem;
+    }
+    .flex-center h3 {
+        margin-top: -9rem;
+    }
+    .flex-center h3 {
+        font-size: 2.4rem;
+    }
+    .flex-center h3, .flex-center p {
+        width: 90%;
+    }
+    .container .nav {
+        padding: 0 2rem;
+    }
+    
+}
