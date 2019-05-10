@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Software developer passionate about designing, developing and deploying software 
     that helps improve the efficiency of my client's business/process(es)">
-    <meta name="keywords" content="Software Developer, Backend Developer, Full Stack Developer, Dotnet core Developer, Angular ">
+    <meta name="keywords" content="Ogunboyejo Olatunde,Software Developer, Backend Developer, Full Stack Developer, Dotnet core Developer, Angular ">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">    
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" media="screen and (max-width: 68rem)" href="./css/mobile.css">
@@ -19,9 +19,9 @@
                 <div>Full Stack Web Developer</div>
             </div>
             <ul>
-                <li class="current"><a href="#projects">PortFolio</a> </li>
-                <li><a href="#about">About</a> </li>
-                <li><a href="#contact">Hire Me</a> </li>
+                <li class="current"><a href="#projects" class="btn">PortFolio</a> </li>
+                <li><a href="#about" class="btn">About</a> </li>
+                <li><a href="#contact" class="btn">Hire Me</a> </li>
             </ul>
         </nav>
         <div class="flex-center">
@@ -67,36 +67,157 @@
                 </ul>
             </div>
            <div class="nav">
-              <div class="box"></div>
-              <div class="text-header">
-                  <h2>Trello Booking App</h2> 
-                  <p>Trello Booking App is a generic booking app that could be used for booking hotels, car rentals,
-                      flight tickets, etc. It gives users the privilege to comment on bookings that they have visited previously and rate it.
-                      Visitors can see ratings,  description ,features of that booking. Users can also view comments of registered users. 
-                  </p>
-                  <div class="features">
-                      <div class="mt-1">Features</div>
-                      <ul>
-                          <li>Server Side Caching</li>
-                          <li>Chat Messenger</li>
-                          <li>Photo Uploads</li>
-                          <li>Comment and rate a booking</li>
-                          <li>Manage User/Admin Roles</li>
-                          <li>Responsive Web App</li>
-                      </ul>
-                  </div>
-                  <button class="btn-md btn-danger mt-2">Visit Web Page</button>
-                  <button class="btn-md btn-primary mt-2">Github Repo</button>
-              </div>
+                 <i class="fa fa-angle-left fa-3x icon chev-left" id="left" onclick="slideImageLeft()"></i>
+                <i class="fa fa-angle-right fa-3x icon chev-right" id="right" onclick="slideImageRight()"></i>
+             <div class="project-con">
+                <div class="flex">
+                    <div class="box img-1"></div>
+                    <div class="flex-col">
+                        <h2>Trello Booking App</h2> 
+                        <p>Trello Booking App is a generic booking app that could be used for booking hotels, car rentals,
+                            flight tickets, etc. It gives users the privilege to comment on bookings that they have visited previously and rate it.
+                            Visitors can see ratings,  description ,features of that booking. Users can also view comments of registered users. 
+                        </p>
+                        <div class="features">
+                            <div class="mt-1">Features</div>
+                            <ul>
+                                <li>Server Side Caching</li>
+                                <li>Chat Messenger</li>
+                                <li>Photo Uploads</li>
+                                <li>Comment and rate a booking</li>
+                                <li>Manage User/Admin Roles</li>
+                                <li>Responsive Web App</li>
+                            </ul>
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn-md btn-danger mt-2">Visit Trello</button>
+                            <a class="btn-md btn-primary mt-2 mx-1" href="https://github.com/josiaholatunde/TrelloAPI">Github Repo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex d-none">
+                    <div class="box img-3"></div>
+                    <div class="flex-col">
+                        <h2>Shop.ng</h2> 
+                        <p>Trello Booking App is a generic booking app that could be used for booking hotels, car rentals,
+                            flight tickets, etc. It gives users the privilege to comment on bookings that they have visited previously and rate it.
+                            Visitors can see ratings,  description ,features of that booking. Users can also view comments of registered users. 
+                        </p>
+                        <div class="features">
+                            <div class="mt-1">Features</div>
+                            <ul>
+                                <li>Server Side Caching</li>
+                                <li>Chat Messenger</li>
+                                <li>Photo Uploads</li>
+                                <li>Comment and rate a booking</li>
+                                <li>Manage User/Admin Roles</li>
+                                <li>Responsive Web App</li>
+                            </ul>
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn-md btn-danger mt-2">Visit Shop.ng</button>
+                            <a class="btn-md btn-primary mt-2 mx-1" href="https://github.com/josiaholatunde/shopping-cart">Github Repo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex d-none">
+                    <div class="box img-4"></div>
+                    <div class="flex-col">
+                        <h2>Naija News</h2> 
+                        <p>Trello Booking App is a generic booking app that could be used for booking hotels, car rentals,
+                            flight tickets, etc. It gives users the privilege to comment on bookings that they have visited previously and rate it.
+                            Visitors can see ratings,  description ,features of that booking. Users can also view comments of registered users. 
+                        </p>
+                        <div class="features">
+                            <div class="mt-1">Features</div>
+                            <ul>
+                                <li>Server Side Caching</li>
+                                <li>Chat Messenger</li>
+                                <li>Photo Uploads</li>
+                                <li>Comment and rate a booking</li>
+                                <li>Manage User/Admin Roles</li>
+                                <li>Responsive Web App</li>
+                            </ul>
+                        </div>
+                        <div class="btn-group">
+                            <button class="btn-md btn-danger mt-2">Visit Naija News</button>
+                            <a class="btn-md btn-primary mt-2 mx-1" href="https://github.com/josiaholatunde/naija-news">Github Repo</a>
+                        </div>
+                    </div>
+             </div>
            </div>
         </div>
     </section>
-    <footer>
+    <footer id="contact">
         <p>Copyright &copy; 2019, with  by Ogunboyejo Olatunde <br/>
            <strong>Contact:</strong> <a href="mailto:josiaholatunde@gmail.com">josiaholatunde17@gmail.com</a>
             
         </p>
     </footer>
-    
+    <script src="http://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript">
+ 
+        function slideImageRight() {
+            
+            const elems =  document.getElementsByClassName('flex');
+            for(let i = 0; i < elems.length; i++) {
+                if (!elems[i].classList.contains('d-none')) {
+                    currentCount = i;
+                }
+            }      
+            if (currentCount < elems.length - 1) {
+                elems[currentCount + 1].classList.remove('d-none');
+                elems[currentCount].classList.add('d-none');
+            }
+        }
+        function slideImageLeft() {
+        
+            const elems =  document.getElementsByClassName('flex');
+            for(let i = 0; i < elems.length; i++) {
+                if (!elems[i].classList.contains('d-none')) {
+                    currentCount = i;
+                }
+            }
+            if (currentCount > 0) {
+                
+                elems[currentCount - 1].classList.remove('d-none');
+                elems[currentCount].classList.add('d-none');
+            
+            }
+        }
+        const elem = document.querySelector('#about');
+        console.log(elem);
+        function isInViewport(elem) {
+            const rect = elem.getBoundingClientRect();
+            return (
+                rect.top >= 0 &&
+                rect.left >= 0 &&
+                rect.bottom <=
+                (window.innerHeight || document.documentElement.clientHeight) &&
+                rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+            );
+        }
+          
+        function run() {
+            if (isInViewport(elem)) {
+             elem.classList.add('show');
+            }
+        }
+        window.addEventListener('load', run);
+        window.addEventListener('scroll', run);
+
+        $('.btn').on('click', function (event) {
+            if (this.hash !== '') {
+              event.preventDefault();
+              const hash = this.hash;
+              $('html, body').animate({
+                  scrollTop: $(hash).offset().top
+              }, 1400);
+            }
+           
+        })
+    </script> 
 </body>
 </html>
