@@ -27,7 +27,7 @@ a {
 }
 
 header {
-    background: url('../img/adult1.jpg') no-repeat center center/cover;
+    background: url('../img/apple3.jpg') no-repeat center center/cover;
     height: 43.5rem;
     color: #fff;
 }
@@ -379,6 +379,7 @@ footer {
     align-items: center;
     justify-content: center;
     background: #f5f5f5;
+    padding: 1rem;
 }
 footer p {
     text-align: center;
@@ -387,9 +388,25 @@ footer p {
 footer p a {
     color: black;
 }
+#contact {
+    display: flex;
+    flex-direction: column;
+}
+.follow {
+    display: flex;
+    line-height: 1.5;
+    
+}
+.follow > div {
+    margin-left: .8rem;
+    cursor: pointer;
+}
 .project-con > .d-none {
     display: none;
     opacity: 0;
+}
+.twitter a{
+    color: #1DA1F2;
 }
 @media only screen and (max-width: 68rem) {
     .box {
