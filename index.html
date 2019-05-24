@@ -19,7 +19,7 @@
     <meta name="twitter:title" content="Believer | Software Developer | Drummer">
     <meta name="twitter:description" content="Software developer passionate about designing, developing and deploying software 
     that helps improve the efficiency of my client's business/process(es)">
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">    
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" media="screen and (max-width: 68rem)" href="./css/mobile.css">
@@ -104,8 +104,11 @@
                             </ul>
                         </div>
                         <div class="btn-group">
-                            <button class="btn-md btn-danger mt-2">Visit Trello</button>
-                            <a class="btn-md btn-primary mt-2 mx-1" href="https://github.com/josiaholatunde/TrelloAPI">Github Repo</a>
+                            <a class="btn-md btn-danger" href="https://trello-event.azurewebsites.net/home">Visit Trello</a>
+                            <a class="btn-md btn-primary mx-1 align-center" href="https://github.com/josiaholatunde/TrelloAPI">
+                                <i class="fab fa-github fa-2x"></i>
+                                Github
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -113,24 +116,26 @@
                     <div class="box img-3"></div>
                     <div class="flex-col">
                         <h2>Shop.ng</h2> 
-                        <p>Trello Booking App is a generic booking app that could be used for booking hotels, car rentals,
-                            flight tickets, etc. It gives users the privilege to comment on bookings that they have visited previously and rate it.
-                            Visitors can see ratings,  description ,features of that booking. Users can also view comments of registered users. 
+                        <p>The application helps users to effectively manage E-Commerce functionalities. The application also uses role based 
+                            authentication where users can view products, product details, add product to cart while admin users can perform CRUD 
+                            functionalities i.e create, edit, delete, update and view products, stores, brands, merchants. The application is also very extensible. 
                         </p>
                         <div class="features">
                             <div class="mt-1">Features</div>
                             <ul>
                                 <li>Server Side Caching</li>
-                                <li>Chat Messenger</li>
                                 <li>Photo Uploads</li>
-                                <li>Comment and rate a booking</li>
+                                <li>Role based authentication</li>
                                 <li>Manage User/Admin Roles</li>
-                                <li>Responsive Web App</li>
+                                <li>Sort Products</li>
                             </ul>
                         </div>
                         <div class="btn-group">
-                            <button class="btn-md btn-danger mt-2">Visit Shop.ng</button>
-                            <a class="btn-md btn-primary mt-2 mx-1" href="https://github.com/josiaholatunde/shopping-cart">Github Repo</a>
+                            <a class="btn-md btn-danger" href="https://shopng.azurewebsites.net">Visit Shop.ng</a>
+                            <a class="btn-md btn-primary mx-1" href="https://github.com/josiaholatunde/shopping-cart">
+                                <i class="fab fa-github fa-2x"></i>
+                                Github
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -138,24 +143,28 @@
                     <div class="box img-4"></div>
                     <div class="flex-col">
                         <h2>Naija News</h2> 
-                        <p>Trello Booking App is a generic booking app that could be used for booking hotels, car rentals,
-                            flight tickets, etc. It gives users the privilege to comment on bookings that they have visited previously and rate it.
-                            Visitors can see ratings,  description ,features of that booking. Users can also view comments of registered users. 
+                        <p>A News blog built with Angular(Client Side), NodeJs(RESTful API design)
+                             and MongoDB for persisting data. It covers various functionalities for 
+                             allowing Admin users perform CRUD operations with posts/articles. 
+                                The application uses JWT based authentication is used to validate 
+                                requests to the api endpoints. The project also uses bcryptjs for 
+                                hashing passwords on the server 
                         </p>
                         <div class="features">
                             <div class="mt-1">Features</div>
                             <ul>
                                 <li>Server Side Caching</li>
-                                <li>Chat Messenger</li>
-                                <li>Photo Uploads</li>
-                                <li>Comment and rate a booking</li>
+                                <li>Posts/image Uploads</li>
                                 <li>Manage User/Admin Roles</li>
                                 <li>Responsive Web App</li>
                             </ul>
                         </div>
                         <div class="btn-group">
-                            <button class="btn-md btn-danger mt-2">Visit Naija News</button>
-                            <a class="btn-md btn-primary mt-2 mx-1" href="https://github.com/josiaholatunde/naija-news">Github Repo</a>
+                            <a class="btn-md btn-danger" href="https://shopng.azurewebsites.net" >Visit Naija News</a>
+                            <a class="btn-md btn-primary mx-1" href="https://github.com/josiaholatunde/naija-news">
+                                <i class="fab fa-github fa-2x"></i>
+                                Github
+                            </a>
                         </div>
                     </div>
              </div>
@@ -163,8 +172,12 @@
         </div>
     </section>
     <footer id="contact">
-        <p>Copyright &copy; 2019, by Ogunboyejo Olatunde <br/>
-           <strong>Contact Me:</strong> <a href="mailto:josiaholatunde@gmail.com">josiaholatunde17@gmail.com</a>
+        <div>
+            Copyright &copy; 2019, by Ogunboyejo Olatunde <br/>
+        </div>
+        <div class="contact-mail"> 
+            <span>Contact Me:</span> <a href="mailto:josiaholatunde@gmail.com">josiaholatunde17@gmail.com</a>
+        </div>
            <div class="follow">
                <div class="github">
                    <a href="https://github.com/josiaholatunde">
@@ -185,8 +198,6 @@
                    </a>
                </div>
            </div>
-            
-        </p>
     </footer>
     <script src="http://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
